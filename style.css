@@ -1,0 +1,30 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.ncolor{
+    color: coral;
+}
+.container1{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    margin: 5px;
+    padding: 10px;
+}
+.half-width img{
+    width: 60%;
+}
+.link-id{
+    text-decoration: none;
+ background-image: linear-gradient(#F2932F, rgb(192, 125, 24));
+    font-weight:700;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+
+
+}
