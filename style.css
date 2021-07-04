@@ -36,3 +36,30 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.container3{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.ex-item{
+    width: 75%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5%;
+    }
+ #ex-id{
+     border-left: 7px solid;
+        border-image: linear-gradient(orange, tomato);
+        border-image-slice: 1;   
+    }
+ #ex-id2{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(212, 114, 114), rgb(100, 43, 43));
+    border-image-slice: 1;   
+ }   
+ footer p{
+     text-align: center;
+ }
